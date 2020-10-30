@@ -19,4 +19,4 @@ for entry in entries:
 	full_df = full_df.append(merged_data, ignore_index = True)
 
 print(full_df)
-df.to_csv(r'selectedPosts.csv')
+full_df.to_csv(r'selectedPosts.csv')
